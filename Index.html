@@ -69,10 +69,11 @@
     <header></header>
 
 
-    <section id="section0" style="height: 100%;background: #ddcdbf; padding-bottom: 60px;padding-top: 60px;">
-        <div class=" container-fluid  h-100">
-            <div class="row justify-content-center align-items-center h-100 pt-6">
-                <div class="col col-12">
+    <section id="section0" style="height:100%;background: #ddcdbf; padding:10px 20px 50px 20px;">
+        <div class="container-fluid">
+            <div class="row min-vh-100">
+                <!--justify-content-center align-items-center h-100--> <!--flex-grow-1 h-100-->
+                <div class="col col-12 pt-4">
                     <div class="row p-3 text-muted">
                         <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 pt-5">
                             <h6 class="text-success ">Vad gör vi?</h6>
@@ -100,129 +101,124 @@
         </div>
     </section>
 
-    <section id="section1" style="height:100% ;background:#dfbe95;padding-bottom: 60px;padding-top: 60px;"><!--100vh-->
-        <div style="height:20%"></div>
-        <div class="row p-4">
-            <div class="col-12 col-xl-6">
-                <div class="_table-responsive-sm">
+    <section id="section1" style="height:100% ;background:#dfbe95;padding: 100px 20px 50px 20px;">
+        <div class="container-fluid">
+            <div class="row min-vh-100">
+                <div class="col-12 col-xl-6">
+
                     <h4 class="pb-2 text-black-50">Kaffemaskiner</h4>
-                    <table class="table table-hover">
+                    <div class="row">
+                        <div class="col col-3 text-capitalize">Modell</div>
+                        <div class="col col-6 text-capitalize">Information</div>
+                        <div class="col col-3 text-capitalize">Pris</div>
+                    </div>
+
+                    <div class="row shadow p-4 mb-4 bg-transparent">
+                        <div class="col col-3 text-black-50">DELONGHI La Specialista EC9335.M Espressomaskin</div>
+                        <div class="col col-6 small">De'Longhi La Specialista EC9335.M har funktioner som bl.a. Sensor Grinding-teknik för konsekvent dosmalning, smart tamperstation för idealisk tampning, aktiv temperaturkontroll och avancerat lattesystem för sammetslen mjölktextur eller varm mjölk.</div>
+                        <div class="col col-3">
+                            <img src="img/maskin1.png" height="75" alt="logo">
+                            &nbsp;
+                            <span class="price">8 990 SEK</span>
+                        </div>
+                    </div>
+
+                    <div class="row shadow p-4 mb-4 bg-transparent">
+                        <div class="col col-3 text-black-50">Rocket Appartamento Espressomaskin Koppar</div>
+                        <div class="col col-6 small">Appartamento är en av Rockets mer kompakta espressomaskiner och passar således perfekt för kök som inte har obegränsat med utrymme. Trots detta, har Rocket inte tummat på kaffemaskinens kvalitet och prestanda som är anpassad för att kunna brygga kaffe till perfektion. En sidopanel i koppar ger espressomaskinen ett extra elegant intryck.</div>
+                        <div class="col col-3">
+                            <img src="img/maskin2.png" height="75" alt="logo">
+                            &nbsp;
+                            <span class="price">13 636 SEK</span>
+                        </div>
+                    </div>
+
+                    <div class="row shadow p-4 mb-4 bg-transparent">
+                        <div class="col col-3 text-black-50">La Pavoni Europiccola Lusso espressomaskin</div>
+                        <div class="col col-6 small">La Pavoni Europiccola Lusso är en manuell, traditionell italiensk espressomaskin som kom på marknaden redan år 1961. Med en La Pavoni Europiccola brygger du enkelt en espresso och skummar mjölken till en cappuccino.</div>
+                        <div class="col col-3">
+                            <img src="img/maskin3.png" height="75" alt="logo">
+                            &nbsp;
+                            <span class="price">7 999 SEK</span>
+                        </div>
+                    </div>
+                </div> <!--col-->
+
+                <div class="col-12 col-xl-5 offset-xl-1">
+                    <h4 class="pb-2 text-black-50">Kaffeparty</h4>
+                    <table class="table">
                         <thead>
                             <tr>
-                                <th>Modell</th> <!--scope="col"-->
-                                <th class="col-sm-2">Information</th>
-                                <th>Pris</th>
+                                <th>Företag</th>
+                                <th>Privatpersoner</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <!--th scope="row"-->
-                                <td class="text-black-50">DELONGHI La Specialista EC9335.M Espressomaskin</th>
-                                <td class="small">De'Longhi La Specialista EC9335.M har funktioner som bl.a. Sensor Grinding-teknik för konsekvent dosmalning, smart tamperstation för idealisk tampning, aktiv temperaturkontroll och avancerat lattesystem för sammetslen mjölktextur eller varm mjölk.</td>
-                                <td class="price">
-                                    <span class="price">8 990 SEK</span><br />
-                                    <img src="img/maskin1.png" height="75" alt="logo">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-black-50">Rocket Appartamento Espressomaskin Koppar</th>
-                                <td class="small">Appartamento är en av Rockets mer kompakta espressomaskiner och passar således perfekt för kök som inte har obegränsat med utrymme. Trots detta, har Rocket inte tummat på kaffemaskinens kvalitet och prestanda som är anpassad för att kunna brygga kaffe till perfektion. En sidopanel i koppar ger espressomaskinen ett extra elegant intryck.</td>
-                                <td class="price">
-                                    <span class="price">13 636 SEK</span><br />
-                                    <img src="img/maskin2.png" height="75" alt="logo">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="text-black-50">La Pavoni Europiccola Lusso espressomaskin</th>
-                                <td class="small">
-                                    La Pavoni Europiccola Lusso är en manuell, traditionell italiensk espressomaskin som kom på marknaden redan år 1961. Med en La Pavoni Europiccola brygger du enkelt en espresso och skummar mjölken till en cappuccino.
-                                </td>
-                                <td class="price">
-                                    <span class="price">7 999 SEK</span><br />
-                                    <img src="img/maskin3.png" height="75" alt="logo">
-                                </td>
-                            </tr>
-                        </tbody>
                     </table>
-                </div>  <!--table-responsive -->
-            </div>  <!--col-->
-            <div class="col-12 col-xl-6">
-                <h4 class="pb-2 text-black-50">Kaffeparty</h4>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Företag</th>
-                            <th>Privatpersoner</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div> <!--col-->
-        </div> <!--row-->
+                </div> <!--col-->
+            </div> <!--row-->
+        </div>
     </section>
 
-    <section id="section2" style="height: 100%;background: #c28d4b; padding-bottom: 60px;padding-top: 60px;">
+    <section id="section2" style="height: 100%;background: #c28d4b; padding:100px 20px 50px 20px;">
+        <div class=" container-fluid">
+            <div class="row min-vh-100">
+                <h1>Om oss</h1>
+                <p>
+                    Kaffeparty etablerades 2020 och är en modern kaffebutik. Alla produkter vi säljer har känd ursprung, med intressant historia och spännande utveckling. Kom gärna till vår butik så berättar vi mer. Vår målsättning är att vara företagens- och privatkunder naturliga val när det gäller kaffe och alla dess tillbehör. Vi erbjuder även föreläsningar om kaffe, te, choklad vid önskemål.
+                </p>
 
-        <h1>Om oss</h1>
-        <p>
-            Kaffeparty etablerades 2020 och är en modernkaffebutik. Vi säljer produkter med känd ursprung, historia och med spännande utveckling. Vår målsättning är att inte bara vara företagens- och privatkunder naturliga val när det gäller presenter av kaffe och dess tillbehör. Vi erbjuder föreläsningar om kaffe, te, choklad.
-        </p>
 
 
 
 
-        <div class="row">
-            <div class="col-4">
-                <div class="contact__image">
-                    <a href="">
-                        <img class="rounded-circle" src="/img/Tegnell.jpg" alt="personbild" title="">
-                    </a>
+                <div class="col-4">
+                    <div class="contact__image">
+                        <a href="">
+                            <img class="rounded-circle" src="/img/Tegnell.jpg" alt="personbild" title="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="contact__name">
+                        <h3><a href="">Teggan</a></h3>
+                    </div>
+                    <div class="contact__title">
+                        VD
+                    </div>
+                    <div>08-108889</div>
+
+                    <div class="contact__email">
+                        <a href="mailto:tegg@tegge.se" title="Teggan">Skicka E-post</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="contact__image">
+                        <a href="">
+                            <img class="rounded-circle" src="/img/Maggan.jpg" alt="personbild" title="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="contact__name">
+                        <h3><a href="">Maggan</a></h3>
+                    </div>
+                    <div class="contact__title">
+                        HR
+                    </div>
+                    <div>08-108889</div>
+
+                    <div class="contact__email">
+                        <a href="mailto:magg@tegge.se" title="Teggan">Skicka E-post</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-8">
-                <div class="contact__name">
-                    <h3><a href="">Teggan</a></h3>
-                </div>
-                <div class="contact__title">
-                    VD  /  vd
-                </div>
-                <div>08-108889</div>
 
-                <div class="contact__email">
-                    <a href="mailto:tegg@tegge.se" title="Teggan">Skicka E-post</a>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="contact__image">
-                    <a href="">
-                        <img class="rounded-circle" src="/img/Maggan.jpg" alt="personbild" title="">
-                    </a>
-                </div>
-            </div>
-            <div class="col-8">
-                <div class="contact__name">
-                    <h3><a href="">Maggan</a></h3>
-                </div>
-                <div class="contact__title">
-                    VD  /  vd
-                </div>
-                <div>08-108889</div>
-
-                <div class="contact__email">
-                    <a href="mailto:tegg@tegge.se" title="Teggan">Skicka E-post</a>
-                </div>
-            </div>
+            <br />
+            Kontakta oss på 08-108889 eller info@kaffeparty.se
+            <br />
+            Öppetider: 
+            Måndag - Fredag 10:00-18:00 samt Lördag 10:00-14:00
         </div>
-
-
-        Kontakta oss
-        08-108889
-
-        info@kaffeparty.se
-
-        Öppetider
-        Måndag - fredag 10:00-18:00
-
-        Lördag 10:00-14:00
 
     </section>
 
