@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <style>
+        /*
+        .def_bgr {
+            text-align: center;
+            color: white;
+            background-image: url('img/header-bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            opacity: 0.1;
+        filter: blur(8px);
+        }
+
+        .navbar-nav > .open > a,
+        .navbar-nav > .open > a:hover,
+        .navbar-nav > .open > a:focus {
+            opacity: 1
+        }
+        */
+        body {
+            position: relative;
+        }
+
+        .price {
+            /*color: #eee;*/
+            font-size: 20px;
+            white-space: nowrap;
+            font-style: italic;
+            color: #070d2f;
+        }
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand rounded-circle js-scroll-trigger" href="#">
+                <img src="img/brand.png" height="75" alt="logo">
+            </a>
+
+            <button class="navbar-toggler navbar-toggler-right text-light"
+                    type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle Navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link text-light js-scroll-trigger active" href="#section0">Index</a></li>
+                    <li class="nav-item"><a class="nav-link text-light js-scroll-trigger" href="#section1">Produkter</a></li>
+                    <li class="nav-item"><a class="nav-link text-light js-scroll-trigger" href="#section2">Om Oss</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header></header>
+
+
+    <section id="section0" style="height: 100%;background: #ddcdbf; padding-bottom: 60px;padding-top: 60px;">
+        <div class=" container-fluid  h-100">
+            <div class="row justify-content-center align-items-center h-100 pt-6">
+                <div class="col col-12">
+                    <div class="row p-3 text-muted">
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 pt-5">
+                            <h6 class="text-success">Vad gör vi?</h6>
+                            <img src="img/header-bg.jpg" class="rounded float-left clearfix mr-2" style="max-width:100px; max-height: 100px;" />
+                            <p>Ipsum nisl quis aptent rhoncus, eu enim at massa eleifend eros, et lectus, eu blandit per congue gravida. Aliquam rhoncus nonummy pulvinar, mauris malesuada ultricies id morbi ex, vitae sed.</p>
+                        </div>
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 pt-5">
+                            <h6 class="text-success">Vilka är vi?</h6>
+                            <img src="img/header-bg.jpg" class="rounded float-left clearfix mr-2" style="max-width:100px; max-height: 100px;" />
+                            <p>Ut semper malesuada, amet in, dui vel et adipiscing sodales, in nibh, proin urna. Mattis dapibus porttitor dapibus, neque integer mauris rhoncus scelerisque est, nisl pharetra, vitae morbi vel ultricies nonummy, praesent morbi turpis pede ullamcorper leo. Justo pede felis enim ipsum in leo.</p>
+                        </div>
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 pt-5">
+                            <h6 class="text-success">Varför oss?</h6>
+                            <img src="img/header-bg.jpg" class="rounded float-right clearfix mr-2" style="max-width:100px; max-height: 100px;" />
+                            <p>Integer nunc turpis nulla non veniam. Nibh netus erat pellentesque consectetuer et ipsum, faucibus erat cras, et fermentum tempus erat dolor et, amet metus suspendisse inceptos. Sit suspendisse luctus in, vel dolor scelerisque varius fermentum, nunc magna neque.</p>
+                        </div>
+                        <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 pt-5">
+                            <h6 class="text-success">Kaffeparty så fungarar det!</h6>
+                            <img src="img/header-bg.jpg" class="rounded float-right clearfix mr-2" style="max-width:100px; max-height: 100px;" />
+                            <p>Integer nunc turpis nulla non veniam. Nibh netus erat pellentesque consectetuer et ipsum, faucibus erat cras, et fermentum tempus erat dolor et, amet metus suspendisse inceptos. Sit suspendisse luctus in, vel dolor scelerisque varius fermentum, nunc magna neque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section1" style="height:100% ;background:#dfbe95;padding-bottom: 60px;padding-top: 60px;"><!--100vh-->
+        <div style="height:20%"></div>
+        <div class="row p-4">
+            <div class="col-12 col-xl-6">
+                <div class="_table-responsive-sm">
+                    <h4 class="pb-2 text-black-50">Kaffemaskiner</h4>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Modell</th> <!--scope="col"-->
+                                <th class="col-sm-2">Information</th>
+                                <th>Pris</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <!--th scope="row"-->
+                                <td class="text-black-50">DELONGHI La Specialista EC9335.M Espressomaskin</th>
+                                <td class="small">De'Longhi La Specialista EC9335.M har funktioner som bl.a. Sensor Grinding-teknik för konsekvent dosmalning, smart tamperstation för idealisk tampning, aktiv temperaturkontroll och avancerat lattesystem för sammetslen mjölktextur eller varm mjölk.</td>
+                                <td class="price">
+                                    <span class="price">8 990 SEK</span><br />
+                                    <img src="img/maskin1.png" height="75" alt="logo">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-black-50">Rocket Appartamento Espressomaskin Koppar</th>
+                                <td class="small">Appartamento är en av Rockets mer kompakta espressomaskiner och passar således perfekt för kök som inte har obegränsat med utrymme. Trots detta, har Rocket inte tummat på kaffemaskinens kvalitet och prestanda som är anpassad för att kunna brygga kaffe till perfektion. En sidopanel i koppar ger espressomaskinen ett extra elegant intryck.</td>
+                                <td class="price">
+                                    <span class="price">13 636 SEK</span><br />
+                                    <img src="img/maskin2.png" height="75" alt="logo">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-black-50">La Pavoni Europiccola Lusso espressomaskin</th>
+                                <td class="small">
+                                    La Pavoni Europiccola Lusso är en manuell, traditionell italiensk espressomaskin som kom på marknaden redan år 1961. Med en La Pavoni Europiccola brygger du enkelt en espresso och skummar mjölken till en cappuccino.
+                                </td>
+                                <td class="price">
+                                    <span class="price">7 999 SEK</span><br />
+                                    <img src="img/maskin3.png" height="75" alt="logo">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>  <!--table-responsive -->
+            </div>  <!--col-->
+            <div class="col-12 col-xl-6">
+                <h4 class="pb-2 text-black-50">Kaffeparty</h4>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Företag</th>
+                            <th>Privatpersoner</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div> <!--col-->
+        </div> <!--row-->
+    </section>
+
+    <section id="section2" style="height: 100%;background: #c28d4b; padding-bottom: 60px;padding-top: 60px;">
+        ...
+    </section>
+
+    <footer id="sticky-footer" class="py-2 bg-transparent text-secondary fixed-bottom">
+        <div class="container text-center">
+            <small>Copyright &copy; 2020 - webbmaster</small>
+        </div>
+    </footer>
+
+    <script src="Scripts/jquery-3.0.0.js"></script>
+    <script src="Scripts/popper.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+
+</body>
+</html>
+
+<!--<div class="container" style="min-height: 100vh;">
+    <div class="row" style="min-height: 100vh;">
+        <div class="col  align-self-center">
+            <div class="h1 p-2">Välkommen till <span class="text-warning">Orgin kaffehandel&trade;</span></div>
+            <div class="h4 p-2">Produkter med ursprung, historia och spännande utveckling.</div>
+        </div>
+    </div>
+</div>-->
