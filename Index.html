@@ -6,46 +6,11 @@
     <title></title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-    <style>
-        /*
-        .def_bgr {
-            text-align: center;
-            color: white;
-            background-image: url('img/header-bg.jpg');
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-            background-position: center center;
-            background-size: cover;
-            width: 100vw;
-            height: 100vh;
-            opacity: 0.1;
-        filter: blur(8px);
-        }
-
-        .navbar-nav > .open > a,
-        .navbar-nav > .open > a:hover,
-        .navbar-nav > .open > a:focus {
-            opacity: 1
-        }
-        */
-        body {
-            position: relative;
-        }
-
-        .price {
-            /*color: #eee;*/
-            font-size: 20px;
-            white-space: nowrap;
-            font-style: italic;
-            color: #070d2f;
-        }
-    </style>
-
+    <link href="Content/kaffeparty.css" rel="stylesheet" />
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand rounded-circle js-scroll-trigger" href="#">
                 <img src="img/brand.png" height="75" alt="logo">
@@ -57,7 +22,7 @@
                 <i class="fa fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ml-auto">
+                <ul class="nav navbar-nav text-uppercase ml-auto">
                     <li class="nav-item"><a class="nav-link text-light js-scroll-trigger active" href="#section0">Index</a></li>
                     <li class="nav-item"><a class="nav-link text-light js-scroll-trigger" href="#section1">Produkter</a></li>
                     <li class="nav-item"><a class="nav-link text-light js-scroll-trigger" href="#section2">Om Oss</a></li>
@@ -73,7 +38,7 @@
         <div class="container-fluid">
             <div class="row min-vh-100">
                 <!--justify-content-center align-items-center h-100--> <!--flex-grow-1 h-100-->
-                <div class="col col-12 pt-4">
+                <div class="col col-12 pt-4 align-items-center">
                     <div class="row p-3 text-muted">
                         <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 pt-5">
                             <h6 class="text-success ">Vad gör vi?</h6>
@@ -102,50 +67,75 @@
     </section>
 
     <section id="section1" style="height:100% ;background:#dfbe95;padding: 100px 20px 50px 20px;">
-        <div class="container-fluid">
-            <div class="row min-vh-100">
-                <div class="col-12 col-xl-6">
-
-                    <h4 class="pb-2 text-black-50">Kaffemaskiner</h4>
-                    <div class="row">
-                        <div class="col col-3 text-capitalize">Modell</div>
-                        <div class="col col-6 text-capitalize">Information</div>
-                        <div class="col col-3 text-capitalize">Pris</div>
-                    </div>
-
-                    <div class="row shadow p-4 mb-4 bg-transparent">
-                        <div class="col col-3 text-black-50">DELONGHI La Specialista EC9335.M Espressomaskin</div>
-                        <div class="col col-6 small">De'Longhi La Specialista EC9335.M har funktioner som bl.a. Sensor Grinding-teknik för konsekvent dosmalning, smart tamperstation för idealisk tampning, aktiv temperaturkontroll och avancerat lattesystem för sammetslen mjölktextur eller varm mjölk.</div>
-                        <div class="col col-3">
+        <div class="container">
+            <h4 class="pb-2 pt-4 text-black-50">Kaffemaskiner</h4>
+            <div class="row row-flex">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="product_content shadow bg-transparent-1">
+                        <div class="col text-black-50">DELONGHI La Specialista EC9335.M Espressomaskin</div>
+                        <div class="col small pb-2 pt-2">De'Longhi La Specialista EC9335.M har funktioner som bl.a. Sensor Grinding-teknik för konsekvent dosmalning, smart tamperstation för idealisk tampning, aktiv temperaturkontroll och avancerat lattesystem för sammetslen mjölktextur eller varm mjölk.</div>
+                        <div class="col">
                             <img src="img/maskin1.png" height="75" alt="logo">
                             &nbsp;
                             <span class="price">8 990 SEK</span>
                         </div>
                     </div>
-
-                    <div class="row shadow p-4 mb-4 bg-transparent">
-                        <div class="col col-3 text-black-50">Rocket Appartamento Espressomaskin Koppar</div>
-                        <div class="col col-6 small">Appartamento är en av Rockets mer kompakta espressomaskiner och passar således perfekt för kök som inte har obegränsat med utrymme. Trots detta, har Rocket inte tummat på kaffemaskinens kvalitet och prestanda som är anpassad för att kunna brygga kaffe till perfektion. En sidopanel i koppar ger espressomaskinen ett extra elegant intryck.</div>
-                        <div class="col col-3">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="product_content shadow bg-transparent-1">
+                        <div class="col text-black-50">Rocket Appartamento Espressomaskin Koppar</div>
+                        <div class="col small pb-2 pt-2">Appartamento är en av Rockets mer kompakta espressomaskiner och passar således perfekt för kök som inte har obegränsat med utrymme. Trots detta, har Rocket inte tummat på kaffemaskinens kvalitet och prestanda som är anpassad för att kunna brygga kaffe till perfektion. En sidopanel i koppar ger espressomaskinen ett extra elegant intryck.</div>
+                        <div class="col ">
                             <img src="img/maskin2.png" height="75" alt="logo">
                             &nbsp;
-                            <span class="price">13 636 SEK</span>
+                            <span class="price">13 646 SEK</span>
                         </div>
                     </div>
-
-                    <div class="row shadow p-4 mb-4 bg-transparent">
-                        <div class="col col-3 text-black-50">La Pavoni Europiccola Lusso espressomaskin</div>
-                        <div class="col col-6 small">La Pavoni Europiccola Lusso är en manuell, traditionell italiensk espressomaskin som kom på marknaden redan år 1961. Med en La Pavoni Europiccola brygger du enkelt en espresso och skummar mjölken till en cappuccino.</div>
-                        <div class="col col-3">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="product_content shadow bg-transparent-1">
+                        <div class="col text-black-50">La Pavoni Europiccola Lusso espressomaskin</div>
+                        <div class="col small pb-2 pt-2">La Pavoni Europiccola Lusso är en manuell, traditionell italiensk espressomaskin som kom på marknaden redan år 1961. Med en La Pavoni Europiccola brygger du enkelt en espresso och skummar mjölken till en cappuccino.</div>
+                        <div class="col ">
                             <img src="img/maskin3.png" height="75" alt="logo">
                             &nbsp;
                             <span class="price">7 999 SEK</span>
                         </div>
                     </div>
-                </div> <!--col-->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="product_content shadow bg-transparent-1">
+                        <div class="col text-black-50">KITCHENAID Artisan Espressomaskin - Crème</div>
+                        <div class="col small pb-2 pt-2">Två oberoende pannor: Espressobryggaren håller en konstant temperatur för optimal bryggning på italienskt vis med ”crema” och ångkokare. Den ger även rikligt med torr ånga med en konstant temperatur för en god, krämig cappuccino.</div>
+                        <div class="col ">
+                            <img src="img/maskin4.png" height="75" alt="logo">
+                            &nbsp;
+                            <span class="price">10 997 SEK</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="product_content shadow bg-transparent-1">
+                        <div class="col text-black-50">Dolce & Gabbana Espressomaskin</div>
+                        <div class="col small pb-2 pt-2">Smeg espressomaskin designad av Dolce & Gabbana som en del av serien Sicily is my love. Den klassiska 50-tals modellen kombinerad med motiv inspirerade av Sicilien och de södra italienska kusterna.</div>
+                        <div class="col ">
+                            <img src="img/maskin5.png" height="75" alt="logo">
+                            &nbsp;
+                            <span class="price">9 999 SEK</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="product_content shadow bg-transparent-1">
+                        <h3>Sixth column</h3>
+                        <p>Normal content.</p>
+                    </div>
+                </div>
+            </div>
 
-                <div class="col-12 col-xl-5 offset-xl-1">
-                    <h4 class="pb-2 text-black-50">Kaffeparty</h4>
+            <div class="row min-vh-100">
+                <div class="col-12 col-xl-6">
+                    <h4 class="pb-2 pt-4 text-black-50">Kaffeparty</h4>
                     <table class="table">
                         <thead>
                             <tr>
@@ -160,55 +150,57 @@
     </section>
 
     <section id="section2" style="height: 100%;background: #c28d4b; padding:100px 20px 50px 20px;">
-        <div class=" container-fluid">
+        <div class="container-fluid">
             <div class="row min-vh-100">
                 <h1>Om oss</h1>
                 <p>
                     Kaffeparty etablerades 2020 och är en modern kaffebutik. Alla produkter vi säljer har känd ursprung, med intressant historia och spännande utveckling. Kom gärna till vår butik så berättar vi mer. Vår målsättning är att vara företagens- och privatkunder naturliga val när det gäller kaffe och alla dess tillbehör. Vi erbjuder även föreläsningar om kaffe, te, choklad vid önskemål.
                 </p>
+                <div class="col">
+                    <div class="row p4">
+                        <div class="col-3 p4" style="min-width:300px">
+                            <div class="contact_image">
+                                <a href="">
+                                    <img class="rounded-circle" src="/img/Tegnell.jpg" alt="personbild" title="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3 p4">
+                            <div class="contact_name">
+                                <h3><a href="">Teggan</a></h3>
+                            </div>
+                            <div class="contact_title">
+                                VD
+                            </div>
+                            <div>08-108889</div>
 
+                            <div class="contact__email">
+                                <a href="mailto:tegg@tegge.se" title="Teggan">Skicka E-post</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row p4">
 
+                        <div class="col-3 p4" style="min-width:300px">
+                            <div class="contact_image">
+                                <a href="">
+                                    <img class="rounded-circle" src="/img/Maggan.jpg" alt="personbild" title="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3 p4">
+                            <div class="contact_name">
+                                <h3><a href="">Maggan</a></h3>
+                            </div>
+                            <div class="contact_title">
+                                HR
+                            </div>
+                            <div>08-108889</div>
 
-
-
-                <div class="col-4">
-                    <div class="contact__image">
-                        <a href="">
-                            <img class="rounded-circle" src="/img/Tegnell.jpg" alt="personbild" title="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-8">
-                    <div class="contact__name">
-                        <h3><a href="">Teggan</a></h3>
-                    </div>
-                    <div class="contact__title">
-                        VD
-                    </div>
-                    <div>08-108889</div>
-
-                    <div class="contact__email">
-                        <a href="mailto:tegg@tegge.se" title="Teggan">Skicka E-post</a>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="contact__image">
-                        <a href="">
-                            <img class="rounded-circle" src="/img/Maggan.jpg" alt="personbild" title="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-8">
-                    <div class="contact__name">
-                        <h3><a href="">Maggan</a></h3>
-                    </div>
-                    <div class="contact__title">
-                        HR
-                    </div>
-                    <div>08-108889</div>
-
-                    <div class="contact__email">
-                        <a href="mailto:magg@tegge.se" title="Teggan">Skicka E-post</a>
+                            <div class="contact_email">
+                                <a href="mailto:magg@tegge.se" title="Teggan">Skicka E-post</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -216,7 +208,7 @@
             <br />
             Kontakta oss på 08-108889 eller info@kaffeparty.se
             <br />
-            Öppetider: 
+            Öppetider:
             Måndag - Fredag 10:00-18:00 samt Lördag 10:00-14:00
         </div>
 
@@ -226,21 +218,45 @@
         <div class="container text-center">
             <small>Copyright &copy; 2020 - webbmaster</small>
         </div>
-
     </footer>
 
-    <script src="Scripts/jquery-3.0.0.js"></script>
-    <script src="Scripts/popper.js"></script>
-    <script src="Scripts/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            var hidden = false;
+            var last_sect_pos = 0;
+            $(window).on('activate.bs.scrollspy', function (e, obj) {
+                console.log(obj.relatedTarget);
+                setTimeout(function () {
+                    last_sect_pos = $(window).scrollTop(); ToggleMenu();    //alt. $(window).scroll();
+                }, 500); // double transition time  
+            });
+
+            $(window).scroll(function (e) {
+                ToggleMenu();
+            });
+
+            function ToggleMenu() {
+                console.log('scroll_pos=' + $(window).scrollTop());
+                console.log('last_sect_pos=' + last_sect_pos);
+                if (Math.abs(last_sect_pos - $(window).scrollTop()) >= 150 && $(window).scrollTop() >= 150) {
+                    if (!hidden) {
+                        $('.navbar').addClass("navbar-hide");
+                        hidden = true;
+                    }
+                } else {
+                    if (hidden) {
+                        $('.navbar').removeClass("navbar-hide");
+                        hidden = false;
+                    }
+                }
+            };
+        });
+    </script>
+
 
 </body>
 </html>
-
-<!--<div class="container" style="min-height: 100vh;">
-    <div class="row" style="min-height: 100vh;">
-        <div class="col  align-self-center">
-            <div class="h1 p-2">Välkommen till <span class="text-warning">Orgin kaffehandel&trade;</span></div>
-            <div class="h4 p-2">Produkter med ursprung, historia och spännande utveckling.</div>
-        </div>
-    </div>
-</div>-->

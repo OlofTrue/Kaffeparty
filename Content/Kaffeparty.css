@@ -1,0 +1,75 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    overflow-y: auto;
+    /* padding-top: 65px;  padding for fixed navbar */
+}
+
+/* optional style active link */
+.navbar-light .navbar-nav .nav-link.active {
+    color: #FFD700 !important;
+}
+
+.navbar {
+    transition: top 0.2s ease;
+}
+
+.navbar-hide {
+    top: -156px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.price {
+    /*color: #eee;*/
+    font-size: 20px;
+    white-space: nowrap;
+    font-style: italic;
+    color: #070d2f;
+    /*float: right;*/
+    padding-top: 25px;
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.row-flex > .col-lg-4 {
+    margin-bottom: 30px;
+}
+
+.product_content {
+    height: 100%;
+    padding: 20px 20px 10px;
+}
+
+/*
+        .def_bgr {
+            text-align: center;
+            color: white;
+            background-image: url('img/header-bg.jpg');
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            opacity: 0.1;
+        filter: blur(8px);
+        }
+
+        .navbar-nav > .open > a,
+        .navbar-nav > .open > a:hover,
+        .navbar-nav > .open > a:focus {
+            opacity: 1
+        }
+        */
+/* vertical spacing between columns */
+/*[class*="col-"] {
+            margin-bottom: 30px;
+        }*/
+
